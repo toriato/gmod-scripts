@@ -7,7 +7,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from requests import post
 
-root_dir = Path(__file__).parent
+root_dir = Path(__file__).parent.parent
 cache_dir = root_dir / 'garrysmod' / 'cache' / 'srcds'
 
 load_dotenv(root_dir / '.env')
